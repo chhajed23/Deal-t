@@ -15,11 +15,11 @@ var end=0;
 function preload(){
 bg=loadImage("../download-_1_.png");
 formBg=loadImage("../quiz2.jpg");
-correctAns=loadSound('sounds/correct.mp4');
-wrongAns=loadSound('wrongAnswer.mpeg');
-starting=loadSound('startingSound.mp3');
-theWinner=loadSound('clappingSound.mp3');
-bClicked=loadSound('btClicked.mpeg')
+correctAns=loadSound('../sounds/correct.mp4');
+wrongAns=loadSound('../wrongAnswer.mpeg');
+starting=loadSound('../startingSound.mp3');
+theWinner=loadSound('../clappingSound.mp3');
+bClicked=loadSound('../btClicked.mpeg')
 }
 
 
